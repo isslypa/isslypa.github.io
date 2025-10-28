@@ -1,13 +1,26 @@
 # Universidad Santo Tomás — Programación 2
 
-Bienvenido al sitio de la asignatura "Programación 2" de la Universidad Santo Tomás. Aquí podrás encontrar el README del proyecto, los informes y otros materiales entregables.
+Bienvenido al sitio de la asignatura "Programación 2" de la Universidad Santo Tomás. Aquí podrás encontrar el código fuente del proyecto, los informes y otros materiales entregables.
 
 ---
 
 ## Navegación
 
-- [README del proyecto principal](README.md)
+- [Código fuente](source/ControlDomotico/) — Proyecto WinForms de Control Domótico
 - [Informes de la asignatura](informes/)
+- [Introducción](informes/introduccion/) — Demo y ejemplos de entregas
+
+---
+
+## Sobre el proyecto
+
+Este repositorio incluye:
+
+1. **Código fuente**: El proyecto WinForms se encuentra en `source/ControlDomotico/`. Cada commit a la rama principal activa la compilación automática mediante GitHub Actions.
+
+2. **Compilación automática**: El workflow `.github/workflows/build-windows.yml` compila el proyecto en Windows y genera un archivo ZIP con el ejecutable como artefacto descargable.
+
+3. **Informes y entregas**: Los informes de la asignatura se organizan en la carpeta `informes/`, con plantillas y ejemplos.
 
 ---
 
@@ -19,4 +32,4 @@ Bienvenido al sitio de la asignatura "Programación 2" de la Universidad Santo T
 
 ---
 
-Si quieres que organice otra sección (tareas, proyectos, ejercicios), dime y la creo.
+Para más información sobre la estructura del proyecto, consulta el [README del proyecto](source/ControlDomotico/README.md).
